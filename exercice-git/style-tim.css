@@ -134,20 +134,21 @@ nav a {
   gap: 2rem;
 }
 
-.sous-titretarif {
+.sous-titretarif
+{
 display: flex;
 flex-direction: row;
 font-size: 48px;
+}
 
 .a-propos-page
 {
   display: flex;
   flex-direction: column;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 200px;
   margin-left: 400px;
   margin-right: 400px;
-  background-color: #696484;
 }
 
 .a-propos-images
@@ -157,7 +158,9 @@ font-size: 48px;
   flex-wrap: wrap;
   width: 1044px;
   height: 412px;
-  background-color: aqua;
+  justify-content: space-around;
+  align-items: center;
+  padding: 200px;
 }
 
 .a-propos-images-container
@@ -169,10 +172,13 @@ font-size: 48px;
 
 .a-propos-text-section
 {
-  background-color: antiquewhite;
   width: 522px;
   height: 512px;
 }
 
-
+.a-propos-image
+{
+  height: 195px;
+  width: 195px;
+  background-color: rebeccapurple;
 }
