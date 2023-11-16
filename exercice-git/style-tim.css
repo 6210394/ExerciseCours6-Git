@@ -133,3 +133,12 @@ nav a {
   flex-direction: column;
   gap: 2rem;
 }
+
+.sous-titretarif {
+display: flex;
+flex-direction: row;
+font-size: 48px;
+
+
+
+}
