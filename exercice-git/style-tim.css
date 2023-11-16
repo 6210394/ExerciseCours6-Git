@@ -139,6 +139,40 @@ display: flex;
 flex-direction: row;
 font-size: 48px;
 
+.a-propos-page
+{
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: #696484;
+}
+
+.a-propos-images
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1044px;
+  height: 412px;
+  background-color: aqua;
+}
+
+.a-propos-images-container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a-propos-text-section
+{
+  background-color: antiquewhite;
+  width: 522px;
+  height: 512px;
+}
 
 
 }
